@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    border: 3px solid red;
+    background-color: aqua;
+    height: 300px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    /*flex-direction: column;*/
+}
+.flex-item{
+    border: 3px solid blue;
+    background-color: rgb(216, 25, 130);
+    margin: 10px;
+    padding: 10px;
+}

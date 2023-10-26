@@ -1,0 +1,29 @@
+h1{
+    background-color: rgb(181, 12, 12);
+  /*  border: 1px solid green;*/
+    padding: 100px 100px 100px 100px ;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: -2;
+   /* opacity: 1;*/
+}
+h2{
+    background-color: rgb(170, 210, 170);
+   /* border: 1px solid blue;*/
+    padding: 100px 100px 100px 100px;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    z-index: -1; 
+    opacity: 0.5;
+}
+h3{
+    background-color: rgb(84, 84, 88);
+   /* border: 1px solid green;*/
+    padding: 100px 100px 100px 100px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    opacity: 0.5;
+}

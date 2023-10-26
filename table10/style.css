@@ -1,0 +1,6 @@
+body{
+    background: linear-gradient(to bottom,rgba(238, 76, 103, 0.39),rgba(127, 212, 248, 0.453)),url('Victoria_Memorial_Kolkata.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}

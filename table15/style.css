@@ -1,0 +1,32 @@
+/*here ul is parent tag so in CSS flex ul will be termed as flex container element*/
+ul{
+    background-color: lightpink;
+    padding: 20px;
+    display: flex;
+}
+/*here li is child tag so in CSS flex li will be termed as flex item or children element*/
+li{
+    list-style-type: none;
+    background-color: darkturquoise;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+}
+/*flex-items property will work on children*/
+/*whichever number is greater in +ve or is less in -ve that will go in the beginning*/
+.flex-item1{
+    /*order: 1;*/
+    order: 4;
+}
+.flex-item2{
+    /*order: 2;*/
+    order: -2;
+}
+.flex-item3{
+    /*order: 3;*/
+    order: 1;
+}
+.flex-item4{
+    order: -1;
+    /*order: 5;*/
+}

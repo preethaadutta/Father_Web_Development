@@ -1,0 +1,15 @@
+p::first-letter{
+    color: rgb(11, 97, 97);
+    font-size: 25px;
+}
+h5::first-line{
+    color: rgb(179, 18, 18);
+}
+h5::before{
+    content: 'Our country, ';
+    color: blueviolet;
+}
+h5::after{
+    content: 'I am proud of my country.';
+    color: rgb(220, 132, 18);
+}

@@ -1,0 +1,39 @@
+.blue_div{
+    background-color: rgb(47, 30, 234);
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 0px;
+    top: 0px;
+    z-index: -2;
+}
+.red_div{
+    background-color: rgba(238, 16, 16, 0.337);
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 30px;
+    top: 30px;
+    z-index: -1;
+}
+.green_div{
+    background-color: rgba(36, 193, 12, 0.361);
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 60px;
+    top: 60px;
+}
+h1{
+    color: rgb(106, 13, 78);
+    padding: 50px;
+   /* opacity: 1;*/
+}
+h2{
+    color: rgb(25, 10, 113);
+    padding: 100px;
+}
+h3{
+    color: rgb(113, 34, 10);
+    padding: 150px;
+}

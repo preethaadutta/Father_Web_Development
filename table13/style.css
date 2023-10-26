@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    border: 3px solid red;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+.child{
+    border: 3px solid blue;
+    background-color: rgb(216, 25, 130);
+    margin: 10px;
+    padding: 10px;
+}

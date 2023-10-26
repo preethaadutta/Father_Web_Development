@@ -1,0 +1,16 @@
+li:nth-child(3){
+    color: aqua;
+    border: 3px solid rgb(235, 30, 235);
+    padding: 20px;
+}
+li:nth-of-type(4){
+    color: rgb(172, 40, 10);
+}
+li:first-child{
+    color: rgb(20, 120, 28);
+}
+/*
+li:first-of-type{
+    color: rgb(17, 5, 67);
+}
+*/
