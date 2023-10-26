@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 300px;
+    height: 400px;
+    background-color: aqua;
+    position: relative;
+    animation-name: example1;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+    animation-fill-mode:forwards;
+}
+@keyframes example1{
+    from{
+        top: 0px;
+        background-color: brown;
+    }
+    to{
+        top: 200px;
+        background-color: black;
+    }
+}

@@ -1,0 +1,16 @@
+div{
+    width: 200px;
+    height: 200px;
+    /*background-color: yellow;*/
+    animation-name: animation1;
+    animation-duration: 1s;
+    animation-iteration-count: 8;
+}
+@keyframes animation1{
+    from{
+        background-color: yellow;
+    }
+    to{
+        background-color: #222121;
+    }
+}

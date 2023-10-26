@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    margin: 10px;
+    padding: 10px;
+    background-color: aqua;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-column-gap: 20px;
+    grid-row-gap:15px ;
+}
+div:nth-of-type(1){
+    padding: 10px;
+    background-color: blueviolet;
+    border: 1px solid red ;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+div:nth-of-type(2){
+    padding: 10px;
+    background-color: blueviolet;
+    border: 1px solid red ;
+    text-align: center;
+}
+div:nth-of-type(3){
+    padding: 10px;
+    background-color: blueviolet;
+    border: 1px solid red ;
+    text-align: center;
+}
+div:nth-of-type(4){
+    padding: 10px;
+    background-color: blueviolet;
+    border: 1px solid red ;
+    text-align: center;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+}
+div:nth-of-type(5){
+    padding: 10px;
+    background-color: blueviolet;
+    border: 1px solid red ;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+div:nth-of-type(6){
+    padding: 10px;
+    background-color: blueviolet;
+    border: 1px solid red ;
+    text-align: center;
+}
+div:nth-of-type(7){
+    padding: 10px;
+    background-color: blueviolet;
+    border: 1px solid red ;
+    text-align: center;
+}
+div:nth-of-type(8){
+    padding: 10px;
+    background-color: blueviolet;
+    border: 1px solid red ;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 5;
+
+}
+@media screen and ( max-width:500px){
+    section{
+        background-color: rgb(198, 226, 43);
+    }
+    div:nth-of-type(1){
+        background-color: brown;
+    }
+    div:nth-of-type(2){
+        background-color: brown;
+    }
+    div:nth-of-type(3){
+        background-color: brown;
+    }
+    div:nth-of-type(4){
+        background-color: brown;
+    }
+    div:nth-of-type(5){
+        background-color: brown;
+    }
+    div:nth-of-type(6){
+       background-color: brown;
+    }
+    div:nth-of-type(7){
+       background-color: brown;
+    }
+    div:nth-of-type(8){
+       background-color: brown;
+    }
+}

@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    animation-name: example1;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+/*
+@keyframes example1 {
+    from{
+        background-color: black;
+    }
+    to{
+        background-color: yellow;
+    }
+}*/
+/*
+@keyframes example1 {
+    0%{
+        background-color: black;
+    }
+    25%{
+        background-color: blueviolet;
+    }
+    50%{
+        background-color: rgb(226, 119, 43);
+    }
+    75%{
+        background-color: rgb(222, 17, 17);
+    }
+    100%{background-color: brown;
+    }
+}*/
+
+@keyframes example1{
+    0%{
+        background-color: black;
+        left: 0px; top: 0px;
+    }
+    25%{
+        background-color: aqua;
+        left: 200px; top: 0px;
+    }50%{
+        background-color: blue;
+        left: 200px; top: 200px;
+    }
+    75%{
+        background-color: blueviolet;
+        left: 0px; top: 200px;
+    }
+    100%{
+        background-color: yellow;
+        left: 0px; top: 0px;
+    }
+}

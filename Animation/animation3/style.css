@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    animation-name: partha;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes partha{
+    0%{
+        color: rgb(103, 251, 251);
+    }
+    25%{
+        color: gold;
+    }
+    50%{
+        color: white;
+    }
+    75%{
+        color: rgb(195, 54, 238);
+    }
+    100%{
+        color: hsla(255, 89%, 47%, 0.883);
+    }
+}

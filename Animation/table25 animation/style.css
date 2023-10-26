@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    animation-name: partha;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes partha{
+    from{
+        color: rgb(103, 251, 251);
+    }
+    to{
+        color: gold;
+    }
+}

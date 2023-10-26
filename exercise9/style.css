@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    justify-content: center;
+}
+section{
+    padding: 4px;
+    display: grid;
+    height: 400px;
+    width: 300px;
+    grid-template-columns: repeat(4,auto);
+    background-color: aqua;
+    border: 1px solid red;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+div{
+    padding: 5px;
+    background-color: yellow;
+    border: 1px solid green;
+    text-align: center;
+    height: 50px;
+}
+div:nth-of-type(1){
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+div:nth-of-type(2){
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+div:nth-of-type(3){
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+div:nth-of-type(4){
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+div:nth-of-type(5){
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+div:nth-of-type(6){
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+input{
+        width:80px;
+}
+select{
+    width:80px;
+}
+div:nth-of-type(7){
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+div:nth-of-type(8){
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+@media screen and (max-width:320px){
+    section{
+        background-color: blue;
+        height: 425px;
+        width: 250px;
+    }
+    div{
+        height: 60px;
+        background-color: darkorange;
+    }
+}
+    
