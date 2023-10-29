@@ -11,6 +11,7 @@ div{
     animation-name: example1;
     animation-duration: 9s;
     animation-iteration-count: infinite;
+    font-size: 20px;
 }
 #div1{
     animation-timing-function: linear;
